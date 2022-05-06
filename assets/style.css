@@ -189,6 +189,10 @@ a:hover{
 .gamecontent a{
     font-weight: bold;
 }
+
+.img-adver{
+    width: 100%;
+}
 /* Title-container End*/
 
 /* Footer Start */
@@ -221,6 +225,13 @@ a:hover{
     padding-left: 0;
 }
 
+.info-adver{
+    margin-bottom: 50px;
+}
+
+.title-adver{
+    margin-top: 40px;
+}
 .widget_archive ul li {
     background-color: rgba(0, 0, 0, 0.3);
     content: "";

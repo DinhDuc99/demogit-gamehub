@@ -19,18 +19,18 @@ const product =[
         'title':'Drift your way around your office desk in a mini street racer. Collect as many tokens but watch out for the explosives! '    },
     {
         'id' : 4,
-        'ingame':'Mở quà',
-        'img': './assets/imggame/moqua.png',
+        'ingame':'Giải cứu thỏ ngọc',
+        'img': './assets/imggame/gctn.png',
         'title':'Drift your way around your office desk in a mini street racer. Collect as many tokens but watch out for the explosives! '    },
     {
         'id' : 5,
-        'ingame':'Quà bay',
-        'img': './assets/imggame/QuaBay.png',
+        'ingame':'Lật hình',
+        'img': './assets/imggame/lathinh.png',
         'title':'Drift your way around your office desk in a mini street racer. Collect as many tokens but watch out for the explosives! '    },
     {
         'id' : 6,
-        'ingame':'Vòng quay may mắn',
-        'img': './assets/imggame/VQMM.jpg',
+        'ingame':'Vòng quay cá mập',
+        'img': './assets/imggame/quaycamap.jpg',
         'title':'Drift your way around your office desk in a mini street racer. Collect as many tokens but watch out for the explosives! '    }
 ]
 function render() {
