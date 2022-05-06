@@ -54,6 +54,10 @@
     }
     .gameachie-title h3{
         line-height: 1.1;
-        
     }
+    .nomargin i {
+        color: #00000096 !important;
+        margin-left: 0px;
+    }
+        
 }

@@ -264,7 +264,12 @@ a:hover{
 }
 
 .nomargin{
-    float:right;  
+    /* float:right;   */
+}
+.nomargin i {
+    color: #00000096 !important;
+    margin-left: 15px;
+    
 }
 .gameachievement{
     border: 1px ;
