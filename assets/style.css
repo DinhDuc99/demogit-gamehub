@@ -1,0 +1,299 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+  }
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.font-weigh-bold{
+    font-weight: bold;;
+}
+
+.container-fluid{
+    background-color: white;
+    border: none;
+    
+}
+
+.navbar-header i{
+    width: 30px;
+    height: 30px;
+}
+.icon-menu{
+    width: 100%;
+}
+.navbar-rgb{
+    background-color:#d74007
+}
+
+.navbar-logo img{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+}
+
+.navbar-right{
+    margin-right: 30px;
+}
+
+.navbar-nav>li>a {
+    color: black;
+    font-size: 14px;
+}
+
+.navbar-nav>li>a:hover{
+    color: white;
+    background-color:#d74007;
+}
+.primary-btn{
+    width: 150px;
+    margin-top: 2px;
+    border-radius: 4px;
+    border: 1px #f4570a solid;
+    color: #f4570a !important;
+    font-weight: bold;;
+    margin-left: 10px;
+    padding: 0 40px;
+    background-color: #ffffff !important;
+}
+.primary-btn:hover{
+    background-color: #E94F39 !important;
+    color: #ffffff !important;
+}   
+
+.home-banner{
+    height:580px;
+}
+
+.primary-color{
+    font-weight: 700;
+    font-size: 30px;
+    color: #f4570a;
+}
+
+.orange-btn{
+    display: block;
+    text-decoration: none;
+    width: 270px;
+    height: 40px;
+    background-color: #E94F39;
+    padding: 10px 60px;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 2px;
+    animation-name: larger;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.bgr-banner{
+    
+    padding: 0px 20px;
+}
+
+.img-banner{
+    width: 100%;
+}
+.orange-btn:hover{
+    animation-name: none;
+    color: #ffffff !important;
+}
+@keyframes larger {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* .orange-btn:hover{
+    background-color: #fd2200;
+    color: white;
+} */
+.info-contact{
+    margin-top: 50px;
+}
+
+.left-banner{
+    width: 500px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.title-banner{
+    margin: 10px 0px 40px;
+    font-size: 18px;
+}
+
+.text-bottom{
+    margin-top: 30px;
+}
+
+/* Title-container Start*/
+.title-container{
+    margin-bottom: 50px;
+}
+.title-text{
+    text-align: center;
+}
+
+.title-text h2{
+    font-weight: 600;
+    margin-bottom: 28px;
+    
+}
+
+.title-text p{
+    font-size: 18px;
+}
+
+.gamecontent-img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 70%;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+}
+.gamecontent{
+    margin-bottom: 20px;
+}
+.gamecontent-title{
+    margin-top:15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gamecontent-intro{
+    padding: 10px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+.gamecontent a{
+    font-weight: bold;
+}
+/* Title-container End*/
+
+/* Footer Start */
+.footer { 
+    background-color: #2e272724;    
+	padding-top: 40px;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 0;
+    margin-top: 50px;
+}
+
+.title-widget {
+	color: #000;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1;
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+}
+
+
+.widget_nav_menu ul {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.widget_archive ul li {
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 3px;
+}
+
+
+.widget_nav_menu ul li {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+	position: relative;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+	width:100%;
+    
+}
+.widget_nav_menu ul li a{
+    color: #000;
+}
+
+.widget_nav_menu ul li a:hover{
+    color: #ffba00;
+}
+
+.title-median {
+    color: #636363;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+}
+.footer-img{
+    width: 80%;
+}
+
+.nomargin{
+    float:right;  
+}
+.gameachievement{
+    border: 1px ;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.gameachie-img img{
+    width: 20%;
+    margin: 10px;
+}
+
+
+.gamesachie{
+    padding-left: 0 !important;
+}
+.gameachie-title{
+
+    width: 60%;
+    margin-bottom: 16px;
+}
+.gameachie-title h3{
+    font-weight: 600;
+}
+.gameachie-intro{
+    width: 80%;
+}
+.footerp p {font-family: 'Gudea', sans-serif; }
+/* Footer End */
+
+
+
